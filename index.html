@@ -462,11 +462,11 @@
                         <h3>Contact Information</h3>
                         <div class="contact-item">
                             <i>📞</i>
-                            <span>+44 (0) 1234 567890</span>
+                            <span>+44 7793 053303</span>
                         </div>
                         <div class="contact-item">
                             <i>✉️</i>
-                            <span>info@imjconsulting.co.uk</span>
+                            <span>ian.imjconsult@gmail.com</span>
                         </div>
                         <div class="contact-item">
                             <i>📍</i>
@@ -491,7 +491,7 @@
 
                     <div class="contact-form-container">
                         <h3>Send Us A Message</h3>
-                        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <form class="contact-form" id="contact-form" action="https://formspree.io/f/mpwroebb" method="POST">
                             <div class="form-group">
                                 <label for="name">Full Name *</label>
                                 <input type="text" id="name" name="name" required>
@@ -531,6 +531,9 @@
                                 <textarea id="message" name="message" placeholder="Please describe your requirements..." required></textarea>
                             </div>
                             
+                            <input type="hidden" name="_to" value="ian.imjconsult@gmail.com">
+                            <input type="hidden" name="_subject" value="New Health & Safety Enquiry">
+                            <input type="hidden" name="_next" value="thank-you.html">
                             <button type="submit" class="submit-btn">Send Message</button>
                         </form>
                     </div>
